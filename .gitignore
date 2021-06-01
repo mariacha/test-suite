@@ -1,3 +1,13 @@
 *
 !.gitignore
 !composer.json
+!web
+!web/modules
+!web/modules/contrib
+!web/modules/contrib/scanner
+!web/modules/contrib/scanner/tests
+!web/modules/contrib/scanner/tests/src
+!web/modules/contrib/scanner/tests/src/Kernel
+!web/modules/contrib/scanner/tests/src/Kernel/Plugin
+!web/modules/contrib/scanner/tests/src/Kernel/Plugin/Scanner
+!web/modules/contrib/scanner/tests/src/Kernel/Plugin/Scanner/*
