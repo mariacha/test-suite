@@ -10,9 +10,6 @@ use Drupal\Tests\paragraphs\FunctionalJavascript\ParagraphsTestBaseTrait;
  */
 class ParagraphTest extends BrowserTestBase {
 
-  // Contains helper methods.
-  use ScannerHelperTrait;
-
   use ParagraphsTestBaseTrait;
 
   /**
