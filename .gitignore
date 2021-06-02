@@ -1,6 +1,7 @@
 *
 !.gitignore
 !composer.json
+!README.md
 !web
 !web/modules
 !web/modules/contrib

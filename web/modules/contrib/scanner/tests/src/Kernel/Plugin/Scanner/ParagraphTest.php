@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\Tests\scanner\Kernel;
+namespace Drupal\Tests\scanner\Kernel\Plugin\Scanner;
 
 use Drupal\Tests\BrowserTestBase;
 use Drupal\Tests\paragraphs\FunctionalJavascript\ParagraphsTestBaseTrait;
@@ -28,16 +28,7 @@ class ParagraphTest extends BrowserTestBase {
   public static $modules = ['node', 'paragraphs', 'views', 'scanner'];
 
   /**
-   * Create a content type and a node.
-   *
-   * @param string $title
-   *   A title for the node that will be returned.
-   * @param string $body
-   *   The text to use as the body.
-   * @param string $content_type
-   *   The node bundle type.
-   * @param string $content_type_label
-   *   The content type label.
+   * Does nothing now.
    *
    * @return \Drupal\node\NodeInterface
    *   A fully formatted node object.
